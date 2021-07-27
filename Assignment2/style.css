@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://img.freepik.com/free-vector/white-minimal-background_1393-309.jpg?size=626&ext=jpg&ga=GA1.2.2108078871.1627171200);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section{
+    margin: 1px auto;
+    font-family: 'Open Sans', sans-serif;
+    width: 60vw;
+
+}
+
+header{
+    background-color: #001845;
+    margin-top: 1rem;
+    color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    text-shadow: 3px 3px 4px #adb5bd;
+    
+}
+ul li{
+    list-style-type: none;
+    border: 2px solid #adb5bd;
+    border-radius: 15px 25px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Kaushan Script', cursive;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 5px;
+    text-shadow: 2px 3px 3px #ced4da;
+    width: 100%;
+    text-align: left;
+    
+}
+
+li:hover{
+    background-color: #dee2e6;
+    border: 3px solid #adb5bd;
+    cursor: pointer;
+}
+
+div{
+    font-family: 'Courgette', cursive;
+}
+
+.contact{
+    position: sticky;
+    top: 20px;
+    background-color: #001845;
+    color: white;
+    border: 2px solid black;
+    font-size: 40px;
+    margin-top: 9px;
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 5px;
+    
+}
+
+img{
+    border-radius: 50%;
+    width: 35px;
+    margin-bottom: 0.9px;
+}
+
+span img{
+    margin-left: 25px;
+}
+
+.icons{
+    font-size: 26px;
+    float: right;
+    margin-right: 10px;
+    
+}
+span i:hover{
+    font-size: 35px;
+    cursor: pointer;
+}
+
