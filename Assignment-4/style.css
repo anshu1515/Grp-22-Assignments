@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=WindSong:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar starts */
+nav{
+    background-color:#001d3d ;
+    font-family: 'Kaushan Script', cursive;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+    color: white;
+    padding: 6px;
+}
+
+nav h1{
+    font-size: 3.7rem;
+    text-shadow: 2px 2px 8px #f0efeb;
+    margin-left: 50px;   
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;  
+}
+
+li{
+    padding: 4px 12px;
+    font-size: 2.3rem;
+    display: flex;
+    justify-content: space-evenly;
+    text-shadow: 2px 1px 2px #fefae0;
+    transition: 150ms;
+}
+
+li:hover{
+    font-size: 2.6rem;
+    background-color: rgb(194, 169, 169);
+    color: black;
+    border-radius: 20px 10px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none; 
+}
+
+/* icons start*/
+
+.icons{
+    font-size: 2.5rem;
+    padding: 2px 8px;
+    margin-right: 40px;
+    transition: 110ms;  
+}
+i:nth-of-type(2){
+    margin-left: 6px;
+}
+i:nth-of-type(3){
+    margin-left: 7px;
+}
+i:hover{
+    cursor: pointer;
+    font-size: 2.8rem;
+}
+
+/* main starts */
+.css-crl{
+    width: 89vw;
+    height: 700px;
+    margin: 12px auto;
+}
+.css-crl{
+    position: relative;
+}
+.css-crl img{
+    position: absolute;
+    width: 100%;
+    height: 680px;
+    opacity: 0;
+    box-shadow: 7px 7px 7px #adb5bd;
+    border-radius: 10px;
+    animation: display 20s infinite;
+}
+.css-crl img:nth-child(2) {
+    animation-delay: 4s;
+}
+.css-crl img:nth-child(3) {
+    animation-delay: 8s;
+}
+.css-crl img:nth-child(4) {
+    animation-delay: 12s;
+}
+.css-crl img:nth-child(5) {
+    animation-delay: 16s;
+}
+
+@keyframes display {
+    0% {
+      transform: translateX(30px);
+      opacity: 0;
+    }
+    10% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    20% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    30% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(-80px);
+      opacity: 0;
+    }
+  }
+
+/* second section */
+.row1{
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin:30px auto; 
+    
+}
+h2{
+   margin-bottom: 1rem;
+   font-size: 2rem;
+   text-align: center;
+   font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+  
+h3{
+    margin-bottom: 2rem;
+    font-size: 2.3rem;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+figure{
+    width: 330px;
+    margin: 7px;
+    border: 1px solid grey;
+    text-align: center;
+    transition: 110ms;
+    box-shadow: 2px 3px 10px black;
+
+}
+figure:hover{
+    transform: scale(1.02);
+}
+figure img{
+    width: 100%;
+    height: 300px;
+}
+figcaption h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.6rem;
+    margin-top: 9px;
+}
+figcaption button{
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: none;
+
+}
+figcaption button:hover{
+    cursor: pointer;
+    background-color: #bc6c25;
+    color: white;
+}
+span{
+    text-decoration: line-through;
+}
+
+/* contact form */
+.contact-form{
+    background-color:#e6b8a2;
+    width: 68vw;
+    margin: 12px auto;
+    height: 600px;
+    position: relative;
+   
+}
+
+.contact-form #first img{
+    position: absolute;
+    left: 84px;
+    top: 55px;
+    height: 500px;
+    width: 25vw;
+    z-index: 1;
+}
+
+.contact-form #second{
+    position: absolute;
+    top: 27px;
+    right: 100px;
+    background-color: white;
+    height: 500px;
+    width: 32vw;
+    text-align: center;
+    border: 1px solid #adb5bd;
+    box-shadow: 2px 2px 7px #6c757d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact-form #second h1{
+    font-size: 3rem;
+    padding: 10px;
+}
+input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 8px;
+    font-size: 1.2rem;
+}
+#second button{
+    margin-top: 40px;
+    padding: 7px 6px;
+    font-size: 1.3rem;
+    border-radius: 10px;  
+}
+#second button:hover{
+    background-color: #bc6c25;
+    color: white;
+}
+
+/* slogans start */
+article{
+    background-color: #e9ecef;
+    margin: 5px auto;
+    
+}
+article h2{
+    font-size: 2.5rem;
+    padding: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.logos div{
+    width: 180px;
+    height: 180px;
+    border: 2px solid black;
+    border-radius: 50%;
+    box-shadow: -3px 3px 4px grey; 
+}
+
+.logos p{
+    text-align: center;
+    margin-top: 75px;  
+}
+#p1{
+    font-size: 2rem;
+}
+#p2{
+    font-size: 1.7rem;
+    font-family: 'WindSong', cursive;
+}
+#p3{
+    font-size: 2rem;
+    font-family: 'Righteous', cursive;
+    
+}
+#p4{
+    font-size: 2rem;
+    font-family: 'Abril Fatface', cursive;
+}
+#p5{
+    font-size: 1.7rem;
+    font-family: 'WindSong', cursive;
+}
+#p6{
+    font-size: 2rem;
+    font-family: 'Abril Fatface', cursive;
+    
+}
+
+/* footer starts here */
+footer{
+    background-color: #6c757d;
+    height: 95px;
+    color: white;
+
+}
+footer div{
+    display: flex;
+    justify-content: center;  
+}
+#footer i{
+       font-size: 2.3rem;
+       padding: 5px 12px;
+}
+footer p{
+   font-size: 2rem;
+   padding: 2px 5px;
+   text-align: center;
+}
+/* media queries */
+
+@media screen and (max-width:1220px) {
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    nav h1{
+        font-size: 2.6rem;;
+    }   
+}
+@media screen and (max-width:1110px){
+    .logos,div{
+        justify-content: flex-start;
+        margin: 5px auto;
+    }
+    #icons i.center{
+        text-align: center;
+    }
+}
+@media screen and (max-width:793px){
+    .rows,h2{
+        font-size: 1.2rem;
+    }  
+}
+@media screen and (max-width:650px){
+    nav,ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    article h2{
+        font-size: 1.7rem;
+    }
+    .css-crl img{
+        height: 600px;
+    }   
+}
+@media screen and (max-width:360px) {
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-form #second h1{
+        font-size: 2rem;
+        
+    }
+    .contact-form div{
+        height: 50%;
+        width: 50%;
+    }
+    .contact-form input{
+        width: 20px;
+    }
+}
+
