@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: black;
+}
+button{
+    padding: 10px 20px;
+    color: #ff9f1c;
+    border: 2px solid #ff9f1c;
+    background-color: black;
+}
+button:hover{
+    border: 2px solid #eeef20;
+    color: white;
+
+    /* 4th parameter of box-shadow is spread radius used for one side shadow only */
+    box-shadow:  0 8px 12px -5px #eeef20;
+    margin-bottom: 0.4em;
+}
