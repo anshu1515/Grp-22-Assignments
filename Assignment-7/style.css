@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url('./images/whitebg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 30vw;
+    margin: 80px auto;
+    background-color: rgba(240,248,255,0.7);
+    padding: 20px;
+    text-align: center;
+}
+
+input{
+    margin-bottom: 25px;
+    width: 90%;
+    background-color: #f8edeb;
+    border: none;
+    outline: none;
+    color: #023e8a;
+    font-size: 1.2rem;
+    height: 50px;
+    border-radius: 8px;
+    padding: 0 7px;
+    text-align: center;
+    font-weight: 800;
+}
+
+#inp:focus{
+    background-color: #f6f6f6;
+}
+
+.details{
+    color: #023e8a;
+    padding: 10px;
+    line-height: 2.2rem;
+    border-radius: 9px;
+    background-color: #f8edeb;
+    height: 50vh;
+}
+
+.city-name , .date{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* .date{
+    font-weight: bold;
+
+} */
+.temp{
+    font-size: 60px;
+    font-weight: 700;
+    margin: 20px 0;
+    text-shadow: 1px 3px 4px #6c757d;
+}
+
+.range, .humidity, .climate{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
